@@ -19,6 +19,10 @@ public class Figura {
 	public int calcularPerimetro(){
 		return 0;
 		}
+	
+	public double calcularArea(){
+		return 0;
+		}
 
 	public String getNombre() {
 		return nombre;
