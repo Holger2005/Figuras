@@ -9,9 +9,9 @@ public class TestFiguras {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Figura figura = new Figura();
-		Cuadrado cuadrado = new Cuadrado();
-		Triangulo triangulo = new Triangulo();
+		Figura figura = new Figura("Padre","Blanco");
+		Cuadrado cuadrado = new Cuadrado("Hijo","Azul");
+		Triangulo triangulo = new Triangulo("Hija","Verde");
 
 		System.out.println(triangulo);
 	}

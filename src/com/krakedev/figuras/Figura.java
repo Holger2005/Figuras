@@ -9,6 +9,14 @@ public class Figura {
 	public String toString() {
 		return "Figura [Nombre: " + nombre + ", color: " + color + "]";
 	}
+	
+
+	public Figura(String nombre, String color) {
+		this.nombre = nombre;
+		this.color = color;
+	}
+
+
 
 	public String getNombre() {
 		return nombre;
