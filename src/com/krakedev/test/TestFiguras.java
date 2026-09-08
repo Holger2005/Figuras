@@ -10,8 +10,8 @@ public class TestFiguras {
 		// TODO Auto-generated method stub
 
 		Figura figura = new Figura("Padre","Blanco");
-		Cuadrado cuadrado = new Cuadrado("Hijo","Azul");
-		Triangulo triangulo = new Triangulo("Hija","Verde");
+		Cuadrado cuadrado = new Cuadrado("Hijo","Azul",5);
+		Triangulo triangulo = new Triangulo("Hija","Verde",6,8);
 
 		System.out.println(triangulo);
 	}
