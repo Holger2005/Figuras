@@ -1,6 +1,6 @@
 package com.krakedev.figuras;
 
-public class Triangulo extends Figura {
+public class Triangulo extends Figura{
 	
 	private int base;
     private int altura;
@@ -16,6 +16,11 @@ public class Triangulo extends Figura {
 	 public double calcularArea() {
 	        return (double)(base * altura) / 2;
 	        
+	}
+
+	@Override
+	public int calcularPerimetro() {
+		return 0;
 	}
 	 
 
